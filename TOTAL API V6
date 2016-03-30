@@ -23,9 +23,9 @@
  *
  */
 preferences {
-    input("username", "text", title: "Username", description: "Your Total Comfort User Name", required: true)
-    input("password", "password", title: "Password", description: "Your Total Comfort password",required: true)
-    input("honeywelldevice", "text", title: "Device ID", description: "Your Device ID", required: true)
+    input("username", "live4thedai", title: "Username", description: "Your Total Comfort User Name", required: true)
+    input("password", "jJordan2601", title: "Password", description: "Your Total Comfort password",required: true)
+    input("honeywelldevice", "283186", title: "Device ID", description: "Your Device ID", required: true)
     input ("enableOutdoorTemps", "enum", title: "Do you have the optional outdoor temperature sensor and want to enable it?", options: ["Yes", "No"], required: false, defaultValue: "No")
     input ("tempScale", "enum", title: "Fahrenheit or Celsius?", options: ["F", "C"], required: false, defaultValue: "F")
   	input("tzOffset", "number", title: "Time zone offset +/-xx?", required: false, defaultValue: -5, description: "Time Zone Offset ie -5.")  
